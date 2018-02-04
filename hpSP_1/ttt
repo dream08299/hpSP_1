@@ -1,0 +1,27 @@
+{
+    "default":{
+    "retry":"3|500",
+        "policy":{"citylevel":"","timepirod":"","expcity":"","inccity":"","interval":-1,"max-times":-1}
+},
+    "native":{
+    "ids":[{"placement_id":"3030927798511402","count": 8,"app_id":"1106358103","channel":"gdt"}],
+        "policy":{"citylevel":"*","timepirod":""},
+    "desc":"后贴"
+},
+    "pause":{
+    "ids":[{"placement_id":"7040825797551972","count": 8,"app_id":"1106358103","channel":"gdt"},{"placement_id":"8070325988365461","count": 3,"app_id":"1106584581","channel":"gdt"}],
+        "policy":{"citylevel":"*","timepirod":""},
+    "desc":"暂停"
+},
+    "list":{
+    "ids":[{"placement_id":"9030324893621530","count": 10,"app_id":"1106358103","channel":"gdt"}],
+        "policy":{"citylevel":"*","timepirod":"*","expcity":"","inccity":"","interval":-1,"max-times":-1},
+    "desc":"电视剧周边列表"
+},
+    "full":{
+    "retry":"6|500",
+        "ids":[{"placement_id":"8010524921167644","count":3,"app_id":"1106584581","channel":"gdt"},{"placement_id":"4010625989272228","count":3,"app_id":"1106584581","channel":"gdt"}],
+        "policy":{"citylevel":"2,3,4,5","timepirod":"","expcity":"","inccity":"","interval": -1,"max-times": 1},
+    "desc":"贴屏"
+}
+}
